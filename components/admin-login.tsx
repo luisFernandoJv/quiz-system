@@ -80,7 +80,6 @@ export default function AdminLogin({ onBack }: AdminLoginProps) {
                     placeholder="Digite a senha de acesso"
                     required
                   />
-                  <p className="text-xs text-gray-500 mt-1">Senha padrão: admin123 (apenas para demonstração)</p>
                 </div>
 
                 <Button type="submit" className="w-full bg-gradient-to-r from-green-600 to-teal-600" size="lg">
